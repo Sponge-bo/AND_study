@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical">
+
+    <include layout="@layout/shoppingcart_title" />
+    <!-- message_list_item.xml -->
+
+    <LinearLayout
+        android:id="@+id/message1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/avatarImageView1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mes1"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="校内兼职雇主"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/contentTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="奶茶店前台服务"
+                android:textSize="14sp"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/timestampTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-6-19 23:22"
+                android:textSize="12sp"
+                android:textColor="#808080" />
+
+        </LinearLayout>
+
+    </LinearLayout >
+
+    <LinearLayout
+        android:id="@+id/message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/avatarImageView2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mes6"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="学工办"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/contentTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="辅导员助理"
+                android:textSize="14sp"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/timestampTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-6-17 21:22"
+                android:textSize="12sp"
+                android:textColor="#808080" />
+
+        </LinearLayout>
+
+    </LinearLayout >
+
+    <LinearLayout
+        android:id="@+id/message3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/avatarImageView3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mes2"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="勤工俭学"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/contentTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="健身房值班"
+                android:textSize="14sp"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/timestampTextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-6-16 14:22"
+                android:textSize="12sp"
+                android:textColor="#808080" />
+
+        </LinearLayout>
+
+    </LinearLayout >
+
+    <LinearLayout
+        android:id="@+id/message4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/avatarImageView4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mes5"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="校外兼职"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/contentTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="小学补习"
+                android:textSize="14sp"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/timestampTextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-6-11 12:42"
+                android:textSize="12sp"
+                android:textColor="#808080" />
+
+        </LinearLayout>
+
+    </LinearLayout >
+
+    <LinearLayout
+        android:id="@+id/message5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/avatarImageView5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mes4"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="系统通知"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/contentTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="更新啦！！！"
+                android:textSize="14sp"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/timestampTextView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-6-8 22:22"
+                android:textSize="12sp"
+                android:textColor="#808080" />
+
+        </LinearLayout>
+
+    </LinearLayout >
+
+    <LinearLayout
+        android:id="@+id/message6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/avatarImageView6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mes3"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="客服"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/contentTextView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="很高兴为你服务！"
+                android:textSize="14sp"
+                android:textColor="#808080" />
+
+            <TextView
+                android:id="@+id/timestampTextView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2023-6-7 7:22"
+                android:textSize="12sp"
+                android:textColor="#808080" />
+
+        </LinearLayout>
+
+    </LinearLayout >
+</LinearLayout>

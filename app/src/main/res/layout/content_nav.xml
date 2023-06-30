@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!--首页-->
+    <LinearLayout
+        android:id="@+id/content_index"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="92dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/index" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="首页"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <!--间隔线-->
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:background="#CFCFCF" />
+    <!--商品-->
+    <LinearLayout
+        android:id="@+id/content_product"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/fenlei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="分类"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!--间隔线-->
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:background="#CFCFCF" />
+    <!--购物车-->
+    <LinearLayout
+        android:id="@+id/content_cart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:src="@drawable/news" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="消息"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!--间隔线-->
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:background="#CFCFCF" />
+
+    <!--个人-->
+    <LinearLayout
+        android:id="@+id/content_pearson"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:src="@drawable/my" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我的"
+            android:textColor="#000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

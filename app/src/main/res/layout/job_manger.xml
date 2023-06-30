@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/job_manage" />
+        <!-- 添加兼职按钮 -->
+        <Button
+            android:id="@+id/button_add_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加兼职"
+            android:background="#336666"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:padding="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/index_menu"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollJob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- 这里可以添加动态创建的信息视图 -->
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,1 @@
+conditonListSpinner = view.findViewById(R.id.product_select_condition);
